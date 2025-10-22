@@ -1,0 +1,49 @@
+{
+  "cervezas": [
+    {
+      "id": 1,
+      "nombre": "Lata",
+      "precio": 2100,
+      "medida": "473ml",
+      "descripcion": "Cerveza artesanal en lata individual",
+      "stock": 50,
+      "categoria": "individual"
+    },
+    {
+      "id": 2,
+      "nombre": "Botella",
+      "precio": 4150,
+      "medida": "473ml",
+      "descripcion": "Cerveza artesanal en botella de vidrio",
+      "stock": 30,
+      "categoria": "individual"
+    },
+    {
+      "id": 3,
+      "nombre": "Pack de 6",
+      "precio": 7800,
+      "medida": "6x473ml",
+      "descripcion": "Pack ahorro de 6 unidades",
+      "stock": 20,
+      "categoria": "pack"
+    },
+    {
+      "id": 4,
+      "nombre": "Pack de 12",
+      "precio": 13900,
+      "medida": "12x473ml",
+      "descripcion": "Pack familiar de 12 unidades",
+      "stock": 15,
+      "categoria": "pack"
+    },
+    {
+      "id": 5,
+      "nombre": "Caja",
+      "precio": 21500,
+      "medida": "24x473ml",
+      "descripcion": "Caja completa de 24 unidades",
+      "stock": 10,
+      "categoria": "mayorista"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicoSur | Cerveza Artesanal</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Toastify CSS desde node_modules -->
+    <link rel="stylesheet" href="node_modules/toastify-js/src/toastify.css">
+</head>
+<body>
+    <header>
+        <h1>PicoSur</h1>
+        <nav>
+            <ul>
+                <li><a href="#login" id="loginLink">Login</a></li>
+                <li><a href="#home" id="homeLink">Home</a></li>
+                <li><a href="#carrito" id="carritoLink">Carrito (<span id="carritoCount">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app">
+
+    </main>
+    <footer>
+        <p>&copy; 2025 PicoSur. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Toastify JS desde node_modules -->
+    <script src="node_modules/toastify-js/src/toastify.js"></script>
+    
+    <!-- Scripts de la aplicación en orden de dependencia -->
+    <script src="js/ui.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/addCarrito.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
